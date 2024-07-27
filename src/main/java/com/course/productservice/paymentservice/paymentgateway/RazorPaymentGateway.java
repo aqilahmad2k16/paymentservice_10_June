@@ -57,7 +57,7 @@ public class RazorPaymentGateway implements PaymentGateway{
         notes.put("policy_name","Jeevan Bima");
         paymentLinkRequest.put("notes",notes);
         paymentLinkRequest.put("callback_url","https://leetcode.com/"); //this callback url, which will hit as the payment is succes if fail, it won't open
-        //callback url, is url where do you want to nevigate as payment gets success or failure
+        //callback url, is url where do you want to nevigate as payment gets success or failur
         // i am adding url: "https://leetcode.com/" this will redirect to this url after payment gets success
         paymentLinkRequest.put("callback_method","get");
 
